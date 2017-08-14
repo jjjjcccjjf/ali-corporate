@@ -1,0 +1,309 @@
+@media screen and (max-width: 1680px) and (min-width: 1441px) {
+	.property-finder label {padding-top: 25px!important;}
+	.projects-promos .other-links ul li a label {padding-top: 15px!important}
+	footer {padding-top: 15px;}
+}
+@media screen and (max-width: 1440px) and (min-width: 1367px) {
+	.property-finder label {padding-top: 10px!important;}
+	.projects-promos .other-links ul li a label {padding-top: 8px!important}
+	header aside {padding-top: 20px!important}
+}
+@media screen and (max-width: 1366px) and (min-width: 1281px) {
+	.property-finder label {padding-top: 15px!important;}
+	.projects-promos .other-links ul li a label {padding-top: 6px!important}
+	.projects .overview figcaption {padding-top: 0;}
+}
+@media screen and (max-width: 1280px) and (min-width: 1025px) {
+	header aside {padding-top: 15px;}
+	.property-finder label {padding-top: 10px!important;}
+	.projects-promos .other-links ul li a label {padding-top: 3px!important}
+	.property-finder ul li select, .property-finder ul li:last-child input {font-size: 14px; line-height: 20px;}
+	.property-finder ul li:last-child input {padding-top: 4px}
+	.featured h3 {font-size: 34px!important; line-height: 40px!important;}
+	.featured p {font-size: 16px!important; line-height: 22px;}
+	.featured ul li a {font-size: 18px; line-height: 24px;}
+	.featured .featleft aside h2, .featured .featright aside h2 {font-size: 20px; line-height: 26px;}
+		.featured .featleft aside, .featured .featright aside {height: 45px;}
+		.featured .featright aside {padding-left: 60px;}
+	.projects-promos h3 {font-size: 18px; line-height: 24px; padding-right:25px }
+	.projects-promos .other-links ul li a label {font-size: 18px; line-height: 24px;}
+	.projects-promos .other-links {padding-right: 10px;}
+	.projects-promos .other-links ul li a span {width: 55px;}
+	.projects-promos .other-links ul li a label {padding-left: 65px; padding-top: 7px!important;}
+	footer {height: auto; padding-bottom: 10px;}
+	footer article, footer aside {width: 100%; text-align: center;}
+	footer article span {width: 100%; float: left; text-align: center; padding-bottom: 10px;}
+	footer article ul {width: 100%; float: left; text-align: center;}
+
+	.banklist li .bonds {padding-left: 55px!important;}
+	.white-popup {width: 65%; max-width: 65%; margin: 20px 17.5%;}
+	.projects .bonds {padding-left: 70px;}
+	.projects .other-links ul li a {font-size: 18px; line-height: 24px;}
+		.projects .other-links ul li a span {width: 55px;}
+		.projects .other-links ul li a label {padding-left: 65px;}
+	.projects .properties aside ul li {margin-right: 5px!important;}
+	.projects .properties div ul li {width: 46%}
+	.projects .overview figcaption {padding: 0 20px 0 330px;}
+}
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+	header aside {padding-top: 20px;}
+	.property-finder label {padding-top: 12px!important;}
+	.property-finder ul li select, .property-finder ul li:last-child input {font-size: 14px; line-height: 20px;}
+	.welcome section {padding-top: 35%;}
+	.welcome section ul {max-width: 100%;}
+	.welcome section ul li {padding: 0 15px!important;}
+	.welcome section ul li a {width: 100%; font-size: 18px; line-height: 24px;}
+	.featured h3 {font-size: 30px!important; line-height: 36px!important;}
+	.featured p {font-size: 16px!important; line-height: 22px; margin-bottom: 45px;}
+	.featured ul li {margin-right: 5px;}
+	.featured ul li a {font-size: 16px; line-height: 20px; }
+	.featured .featleft aside h2, .featured .featright aside h2 {font-size: 20px; line-height: 26px;}
+		.featured .featleft aside, .featured .featright aside {height: 45px;}
+		.featured .featright aside {padding-left: 60px;}
+	.projects-promos .other-links {padding-right: 0px;}
+	.projects-promos .other-links ul li a label {font-size: 14px; line-height: 20px;}
+	.projects-promos h3 {font-size: 18px; line-height: 24px; padding-right:25px }
+	.projects-promos .other-links ul li a span {width: 50px;}
+	.projects-promos .other-links ul li a label {padding-left: 55px;}
+	
+	.featured-offers article div h2 {font-size: 36px; line-height: 42px;}
+	.featured-offers article div p {font-size: 18px; line-height: 24px;}
+	.bank-partners .carousel .carousel-cell { width: 15%; }
+		.banklist li .bonds {padding-left: 60px!important;}
+	footer {height: auto; padding-bottom: 10px;}
+	footer article, footer aside {width: 100%; text-align: center;}
+	footer article span {width: 100%; float: left; text-align: center; padding-bottom: 10px;}
+	footer article ul {width: 100%; float: left; text-align: center;}
+
+	.white-popup {width: 80%; max-width: 80%; margin: 20px 10%;}
+	.projects .properties, .projects article.forms {width: 60%;}
+	.projects .bonds {padding-left: 70px;}
+	.projects .other-links ul li a {font-size: 18px; line-height: 24px;}
+		.projects .other-links ul li a span {width: 55px;}
+		.projects .other-links ul li a label {padding-left: 65px;}
+	.projects .properties aside ul li {margin-right: 5px!important;}
+	.projects .properties div ul li {width: 100%; padding-left: 0;}
+	.projects .other-links {width: 37%;}
+	.projects .properties aside ul {text-align: center; }
+		.projects article.forms {width: 100%; margin-bottom: 10px;}
+		.projects .overview figcaption {padding-top: 0;}
+}
+
+/************************************************************************************
+smaller than 800
+*************************************************************************************/
+@media screen and (max-width: 800px) and (min-width: 640px) {
+	header aside {padding-top: 20px;}
+		header aside h1 {font-size: 20px; line-height: 26px;}
+	.property-finder label {padding: 10px 15px 0!important; width: 180px }
+	.property-finder ul {padding-left: 180px; padding-right: 15px;}
+	.property-finder ul li select, .property-finder ul li:last-child input {font-size: 12px; line-height: 18px;}
+	 .property-finder ul li {padding-right: 15px;}
+	.welcome {position: relative; height: auto;}
+	.welcome section {padding-top: 20%;}
+	.welcome section h1 {font-size: 40px; line-height: 46px; margin-bottom: 40px}
+	.welcome section h2 {font-size: 28px; line-height: 34px;}
+	.welcome section ul {max-width: 298px;}
+	.welcome section ul li {padding: 0 15px!important; display: block!important; width: 100%; margin-bottom: 20px; clear: both;}
+	.welcome section ul li a {width: 100%; font-size: 18px; line-height: 24px;}
+	.featured h3 {font-size: 30px!important; line-height: 36px!important;}
+	.featured p {font-size: 16px!important; line-height: 22px; margin-bottom: 45px;}
+	.featured ul li a {font-size: 18px; line-height: 24px;}
+	.featured .featleft aside h2, .featured .featright aside h2 {font-size: 16px; line-height: 22px; width: 90%; background-position: 70%;}
+		.featured .featleft aside, .featured .featright aside {height: auto;}
+		.featured .featright aside {padding-left: 40px;}
+		.featured .featleft aside img, .featured .featright aside img {height: 25px; margin-top: 10px;}
+	.featured .employee, .featured .reap {width: 100%; z-index: 100; background-image: none; background-color: #007149;-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); padding: 30px; }
+	.featured-offers article div {padding-right: 30px!important;}
+	.featured-offers article div h2 {font-size: 30px; line-height: 36px;}
+	.featured-offers article div p {font-size: 18px; line-height: 24px;}
+	.bank-partners .carousel .carousel-cell { width: 18%; }
+	.projects-promos {height: auto;}
+		.projects-promos article.estates {width: 100%; height: 250px; margin-bottom: 15px;}
+		.projects-promos aside.promos {width: 50%; height: 250px;}
+		 .projects-promos .other-links {width: 47%; height: 250px; padding-right: 10px;}
+	footer {height: auto; padding-bottom: 10px;}
+	footer article, footer aside {width: 100%; text-align: center;}
+	footer article span {width: 100%; float: left; text-align: center; padding-bottom: 10px;}
+	footer article ul {width: 100%; float: left; text-align: center;}
+
+	.white-popup {width: 95%; max-width: 95%; margin: 20px 2.5%;}
+	.projects .properties {width: 100%;}
+	.projects .bonds {padding-left: 70px;}
+	
+	.projects .properties aside ul li {margin-right: 5px!important;}
+	.projects .properties div ul li {width: 45.333%; }
+	.projects .other-links {width: 100%; position: relative; margin-top: 20px;}
+	.projects .properties aside ul {text-align: center; }
+
+	.projects article.forms, .projects article.forms .forms-main ul li ul li {width: 100%;}
+	.projects .overview figure {width: 250px}
+	.projects .overview figcaption {padding: 0 20px 0 280px;}
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 639px) and (min-width: 481px) {
+	header {text-align: center; height: auto;}
+	header img {text-align: center; float: none; height: 50px;}
+	header aside {width: 100%; text-align: center; background-image: none; padding: 10px; }
+		header aside h1 {font-size: 18px; line-height: 24px;}
+	.property-finder {height: auto;}
+	.property-finder label {display: none;}
+	.property-finder ul {padding-left: 35px;}
+	.property-finder ul li {width: 49%; padding: 5px;}
+		.property-finder ul li select, .property-finder ul li:last-child input  {font-size: 14px; height: 30px; float: left; line-height: 20px;}
+		.property-finder ul li:last-child {width: 49%; }
+		.property-finder ul li:last-child input {padding: 3px;}
+	.welcome {position: relative; height: auto;}
+	.welcome section {padding: 25% 30px 0;}
+	.welcome section h1 {font-size: 36px!important; line-height: 42px!important; margin-bottom: 40px}
+	.welcome section h2 {font-size: 24px; line-height: 30px;}
+	.welcome section ul {max-width: 298px;}
+	.welcome section ul li {padding: 0 15px!important; display: block!important; width: 100%; margin-bottom: 20px; clear: both;}
+	.welcome section ul li a {width: 100%; font-size: 22px; line-height: 28px;}
+	.featured {height: auto;}
+	.featured .featleft, .featured .featright {width: 100%; position: relative;-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);}
+	.featured h3 {font-size: 30px!important; line-height: 36px!important;}
+	.featured p {font-size: 16px!important; line-height: 22px; margin-bottom: 45px;}
+	.featured ul li a {font-size: 18px; line-height: 24px;}
+	.featured .featleft aside h2, .featured .featright aside h2 {font-size: 16px; line-height: 22px; }
+		.featured .featleft aside, .featured .featright aside {height: auto; }
+		.featured .featleft aside {padding-right: 20px;}
+		.featured .featright aside {padding-left: 20px;}
+		.featured .featleft aside img, .featured .featright aside img {height: 25px;}
+	.featured .employee, .featured .reap {width: 100%; z-index: 100; background-image: none; background-color: #007149;-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); padding: 30px 30px 50px; position: relative; }
+	.featured-offers article div {padding: 30px!important; height: auto; position: absolute; bottom: 0;}
+		.featured-offers aside {-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); min-width: 200px; height: auto; padding: 15px;}
+
+	.featured-offers article div h2 {font-size: 30px; line-height: 36px;}
+	.featured-offers article div p {font-size: 18px; line-height: 24px;}
+	.bank-partners .carousel .carousel-cell { width: 18%; }
+	.projects-promos {height: auto;}
+		.projects-promos article.estates {width: 100%; height: 250px; margin-bottom: 15px;}
+		.projects-promos aside.promos {width: 100%; height: 250px;  margin: 0 0 15px;}
+		 .projects-promos .other-links {width: 100%; height: 250px; padding-right: 10px; padding-left: 10px; box-sizing: border-box;}
+	footer {height: auto; padding-bottom: 10px;}
+	footer article, footer aside {width: 100%; text-align: center;}
+	footer article span {width: 100%; float: left; text-align: center; padding-bottom: 10px;}
+	footer article ul {width: 100%; float: left; text-align: center;}
+	footer article ul li {margin-bottom: 10px;}
+
+	.white-popup {width: 95%; max-width: 95%; margin: 0 2.5%;}
+	.projects .properties {width: 100%;}
+	.projects .bonds {padding-left: 70px;}
+	
+	.projects .properties aside ul li {margin-right: 5px!important;}
+	.projects .properties div ul li {width: 100%; padding-left: 0; }
+	.projects .other-links {width: 100%; position: relative; margin-top: 20px;}
+	 #projdesc h3 {font-size: 24px; line-height: 30px;}
+	#projdesc div figure {padding-right: 0; position: relative; min-height: 150px;}
+	
+	#projdesc div article {width: 100%; margin-top: 15px;}
+	#projdesc div aside ul li {width: 100%;}
+	#projdesc div aside ul li:nth-child(2) {margin: 0;}
+	footer aside ul li { margin:0 10px 10px!important; border: 0; padding-left: 0;}
+	.projects .properties aside ul {text-align: center; }
+
+	.projects article.forms, .forms-main ul li label {width: 100%!important; margin-bottom: 10px;}
+		.projects article.forms, .forms-main ul li input[type="text"], .projects article.forms .forms-main ul li ul, .projects article.forms .forms-main ul li ul li, .projects article.forms .forms-main ul li input[type="email"], .projects article.forms .forms-main ul li textarea, .projects article.forms .forms-main ul li select {width: 100%!important;}
+		.hide {display: none;}
+	.projects .overview figure {width: 100%; height: 150px; text-align: center; position: relative; top: 0; left: 0; margin-bottom: 20px;}
+		.projects .overview figure img {width: 100%; height: 100%; object-fit: contain;}
+	.projects .overview figcaption {padding: 0; text-align: center;}
+	.projects article.forms .forms-main ul li input[type="submit"], .projects article.forms .forms-main ul li a {display: block!important; clear: both!important; margin-bottom: 20px;}
+	.projects article.forms .forms-main ul li a {width: 100%; box-sizing: border-box; text-align: center;}
+}
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) and (min-width: 320px) {
+	header {text-align: center; height: auto;}
+	header img {text-align: center; float: none; height: 50px;}
+	header aside {width: 100%; text-align: center; background-image: none; padding: 10px; }
+		header aside h1 {font-size: 18px; line-height: 24px;}
+	.property-finder {height: auto;}
+	.property-finder label {display: none;}
+	.property-finder ul {padding-left: 35px;}
+	.property-finder ul li {width: 49%; padding: 5px;}
+		.property-finder ul li select, .property-finder ul li:last-child input  {font-size: 14px; height: 30px; float: left; line-height: 20px;}
+		.property-finder ul li:last-child {width: 49%; }
+		.property-finder ul li:last-child input {padding: 3px;}
+
+	.welcome {position: relative; height: 100%; background-size: auto 100%; }
+	.welcome section {padding: 35% 30px 0;}
+	.welcome section h1 {font-size: 30px!important; line-height: 36px!important; margin-bottom: 20px}
+	.welcome section h2 {font-size: 20px; line-height: 24px;}
+	.welcome section ul {max-width: 298px;}
+	.welcome section ul li {padding: 0 15px!important; display: block!important; width: 100%; margin-bottom: 20px; clear: both;}
+	.welcome section ul li a {width: 100%; font-size: 18px; line-height: 24px; padding: 10px 0;}
+	
+	.featured {height: auto;}
+	.featured .featleft, .featured .featright {width: 100%; position: relative;-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);}
+	.featured h3 {font-size: 24px!important; line-height: 30px!important;}
+	.featured p {font-size: 14px!important; line-height: 20px; margin-bottom: 35px;}
+	.featured ul {width: 100%; float: left;}
+	.featured ul li {width: 100%; float: left; display:block!important; clear: both; margin-bottom: 15px; }
+	.featured ul li a {font-size: 14px; line-height: 20px; width: 100%; float: left; text-align: center; box-sizing: border-box;}
+	.featured .featleft aside h2, .featured .featright aside h2 {font-size: 16px; line-height: 22px; width: 90%; background-position: 75% center }
+		.featured .featleft aside, .featured .featright aside {height: auto; }
+		.featured .featleft aside {padding-right: 20px;}
+		.featured .featright aside {padding-left: 20px;}
+		.featured .featleft aside img, .featured .featright aside img {height: 25px; margin-top: 10px;}
+	.featured .employee, .featured .reap {width: 100%; z-index: 100; background-image: none; background-color: #007149;-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); padding: 30px 30px 50px; position: relative; }
+	
+	.featured-offers article div {padding: 15px 30px!important; height: auto; position: absolute; bottom: 0;}
+		.featured-offers aside {-webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%); min-width: 200px; height: auto; padding: 15px;}
+
+	.featured-offers article div h2 {font-size: 24px; line-height: 30px; margin-bottom: 15px;}
+	.featured-offers article div p {font-size: 16px; line-height: 22px;}
+	.bank-partners .carousel .carousel-cell { width: 33%; }
+	.projects-promos {height: auto;}
+		.projects-promos article.estates {width: 100%; height: auto; margin-bottom: 15px;}
+		.projects-promos aside.promos {width: 100%; height: auto;  margin: 0 0 15px;}
+		 .projects-promos .other-links {width: 100%; height: 250px; padding-right: 10px; padding-left: 10px; box-sizing: border-box;}
+			.projects-promos .other-links ul li a label {padding-left:75px;font-size: 18px; line-height: 24px;}
+			.projects-promos .other-links ul li a span {width: 60px;}
+	footer {height: auto; padding-bottom: 10px;}
+	footer article, footer aside {width: 100%; text-align: center;}
+	footer article span {width: 100%; float: left; text-align: center; padding-bottom: 10px;}
+	footer article ul {width: 100%; float: left; text-align: center;}
+	footer article ul li {margin-bottom: 10px;}
+	footer aside ul li { margin:0 5px 10px!important; border: 0; padding-left: 0;}
+
+	.white-popup {width: 95%; max-width: 95%; margin: 0 2.5%;}
+	.projects .properties {width: 100%;}
+	.projects .bonds {padding-left: 70px;}
+		.projects .other-links ul li a {font-size: 16px; line-height: 22px;}
+		.projects .other-links ul li a span {width: 55px;}
+		.projects .other-links ul li a label {padding-left: 65px;}
+	.projects .properties aside ul li {margin-right: 5px!important;}
+	.projects .properties div ul li {width: 100%; padding-left: 0; }
+	.projects .other-links {width: 100%; position: relative; margin-top: 20px;}
+	 #projdesc h3 {font-size: 24px; line-height: 30px;}
+	#projdesc div figure {padding-right: 0; position: relative; min-height: 150px;}
+	#projdesc div article {width: 100%; margin-top: 15px;}
+	#projdesc div aside ul li {width: 100%;}
+	#projdesc div aside ul li:nth-child(2) {margin: 0;}
+	.projects .properties aside ul {text-align: center; }
+
+	.projects article.forms, .forms-main ul li label {width: 100%!important; margin-bottom: 10px;}
+		.projects article.forms .forms-main ul li input[type="text"], .projects article.forms .forms-main ul li ul, .projects article.forms .forms-main ul li ul li, .projects article.forms .forms-main ul li input[type="email"], .projects article.forms .forms-main ul li textarea, .projects article.forms .forms-main ul li select,  .projects article.forms aside.tab ul li {width: 100%!important;}
+			.projects article.forms aside.tab ul li a {width: 100%; box-sizing: border-box; text-align: center;}
+		.hide {display: none;}
+		.projects article.forms .forms-main ul li input[type="radio"] + label {width: auto!important;}
+		.projects .overview figure {width: 100%; height: 150px; text-align: center; position: relative; top: 0; left: 0; margin-bottom: 20px;}
+		.projects .overview figure img {width: 100%; height: 100%; object-fit: contain;}
+	.projects .overview figcaption {padding: 0; text-align: center;}
+	.projects article.forms .forms-main ul li input[type="submit"], .projects article.forms .forms-main ul li a {display: block!important; clear: both!important; margin-bottom: 20px;}
+	.projects article.forms .forms-main ul li a {width: 100%; box-sizing: border-box; text-align: center;}
+}
+

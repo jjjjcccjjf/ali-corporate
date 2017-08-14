@@ -1,0 +1,561 @@
+/* FONTS */
+@font-face {
+  font-family: 'rajdhaniregular';
+  src: url("fonts/rajdhani-regular-webfont.woff2") format("woff2"), url("fonts/rajdhani-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'rajdhanisemibold';
+  src: url("fonts/rajdhani-semibold-webfont.woff2") format("woff2"), url("fonts/rajdhani-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'robotoregular';
+  src: url("fonts/roboto-regular-webfont.woff2") format("woff2"), url("fonts/roboto-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ralewaybold';
+  src: url("fonts/raleway-bold-webfont.woff2") format("woff2"), url("fonts/raleway-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ralewaymedium';
+  src: url("fonts/raleway-medium-webfont.woff2") format("woff2"), url("fonts/raleway-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ralewayregular';
+  src: url("fonts/raleway-regular-webfont.woff2") format("woff2"), url("fonts/raleway-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'ralewaysemibold';
+  src: url("fonts/raleway-semibold-webfont.woff2") format("woff2"), url("fonts/raleway-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+/* Common Styles */
+/** Fonts & Colors **/
+.reset, body, html, h1, h2, h3, h4, h5, h6, p, ul, figure, figcaption, .projects-promos .other-links ul {
+  margin: 0;
+  padding: 0; }
+
+.wrapper, .pagewrapper, .welcome section {
+  width: 83.33333%;
+  margin: 0 auto; }
+
+.fleft, header, header img, .property-finder, .property-finder label, .property-finder ul, .property-finder ul li, .welcome, .welcome section, .welcome section ul li, .welcome section ul li a, .featured, .featured ul, .featured .featleft div, .featured .featleft aside, .featured .featleft aside h2, .featured .employee, .featured .featright, .featured .featright div, .featured .featright aside, .featured .featright aside h2, .featured .reap, .projects-promos, .projects-promos article.estates, .projects-promos article.estates .rslides, .projects-promos article.estates .rslides .carousel-cell, .projects-promos aside.promos, .projects-promos aside.promos .carousel, .projects-promos aside.promos .carousel .carousel-cell, .projects-promos .other-links ul, .projects-promos .other-links ul li, .projects-promos .other-links ul li a, .projects-promos .other-links ul li a span, .projects-promos .other-links ul li a label, footer, footer article, footer article ul, footer article span, .rslides img {
+  float: left; }
+
+.fright, header aside, .projects-promos .other-links, footer aside {
+  float: right; }
+
+.w100 {
+  width: 100%;
+  float: left; }
+
+.wid100, header, .property-finder, .property-finder ul, .property-finder ul li select, .welcome, .welcome section, .welcome section select, .featured, .featured ul, .featured .featleft div, .featured .featleft aside, .featured .featright div, .featured .featright aside, .projects-promos, .projects-promos article.estates .rslides, .projects-promos article.estates .rslides .carousel-cell, .projects-promos aside.promos .carousel, .projects-promos aside.promos .carousel .carousel-cell, .projects-promos .other-links ul, .projects-promos .other-links ul li, .projects-promos .other-links ul li a, .projects-promos .other-links ul li a label, footer {
+  width: 100%; }
+
+.defimg {
+  width: 100%;
+  height: auto; }
+
+.defimg2, footer article ul li img {
+  width: auto;
+  height: 100%; }
+
+.coverimg, .featured .featleft div img, .featured .featright div img, .projects-promos article.estates .rslides .carousel-cell img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.containimg, .projects-promos aside.promos .carousel .carousel-cell img, .projects-promos .other-links ul li a span img, .rslides img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; }
+
+.resetform, input, select, textarea, .welcome section button {
+  border: 0;
+  border-radius: 0;
+  font: 16px/22px "robotoregular";
+  color: #000;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  outline: 0;
+  box-sizing: border-box; }
+
+.textshdw, .welcome section h2, .welcome section h1, .welcome section p {
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.5); }
+
+.inside {
+  position: relative; }
+
+.margbot10 {
+  margin-bottom: 10px !important; }
+
+/* RESET */
+body, html, h1, h2, h3, h4, h5, h6, p, ul, figure, figcaption {
+  color: #fff; }
+
+body, html {
+  height: 100%; }
+
+img {
+  border: 0;
+  outline: 0; }
+
+article, section, aside, div, header, footer, nav {
+  position: relative;
+  box-sizing: border-box; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+
+header {
+  height: 8.88889%;
+  background: #fff;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0; }
+  header img {
+    height: 100%;
+    width: auto; }
+  header aside {
+    width: auto;
+    text-align: center;
+    height: 100%;
+    padding: 25px 30px 0 60px;
+    background: #007149 url(../images/slantbg.jpg) no-repeat left top;
+    background-size: auto 100%;
+    box-sizing: border-box; }
+    header aside h1 {
+      font: 24px/30px "ralewaybold";
+      text-transform: uppercase; }
+
+.property-finder {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  height: 6.44444%;
+  background: #dadada;
+  padding: 8px 0;
+  box-sizing: border-box;
+  z-index: 100; }
+  .property-finder label {
+    width: 210px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+    font: 20px/26px "rajdhanisemibold";
+    color: #444;
+    padding: .9% 30px 0;
+    box-sizing: border-box; }
+  .property-finder ul {
+    list-style: none;
+    padding-left: 210px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    position: relative;
+    height: 100%; }
+    .property-finder ul li {
+      width: 28%;
+      height: 100%;
+      padding-right: 30px;
+      box-sizing: border-box; }
+      .property-finder ul li select {
+        padding: 0 10px 0;
+        box-sizing: border-box;
+        height: 100%;
+        background: #ebebeb url(../images/droparrow.jpg) no-repeat right center;
+        border: solid 1px #959595; }
+    .property-finder ul li:last-child {
+      width: 15%;
+      padding-right: 0; }
+      .property-finder ul li:last-child input {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        background: #007149;
+        color: #fff;
+        padding-top: 5px;
+        font: 18px/24px "rajdhanisemibold"; }
+      .property-finder ul li:last-child input:hover {
+        background: #00502f; }
+
+.welcome {
+  position: fixed;
+  height: 100%;
+  background: url(../images/welcomebg.jpg) no-repeat center center;
+  background-size: cover; }
+  .welcome div {
+    position: absolute;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  .welcome section {
+    z-index: 50;
+    height: 100%;
+    padding: 20% 0 0;
+    box-sizing: border-box;
+    text-align: center; }
+    .welcome section h2 {
+      font: 32px/38px "ralewaymedium";
+      margin-bottom: 15px; }
+    .welcome section h1 {
+      font: 44px/50px "ralewaymedium";
+      margin-bottom: 35px; }
+    .welcome section p {
+      font: 20px/26px "robotoregular";
+      margin-bottom: 10px; }
+    .welcome section ul {
+      list-style: none;
+      width: 100%;
+      max-width: 1024px;
+      margin: 0 auto; }
+      .welcome section ul li {
+        text-align: center;
+        display: inline-block;
+        width: 33%;
+        padding: 0 30px;
+        box-sizing: border-box; }
+        .welcome section ul li a {
+          font: 24px/30px "rajdhanisemibold";
+          color: #fff;
+          padding: 20px 0;
+          border: solid 3px #fff;
+          border-radius: 10px;
+          width: 298px;
+          box-sizing: border-box; }
+        .welcome section ul li a:hover {
+          background: #007149;
+          border-color: #007149;
+          box-shadow: 0 5px 0 #00502f; }
+    .welcome section select {
+      max-width: 300px;
+      padding: 10px;
+      box-sizing: border-box;
+      height: 100%;
+      background: #ebebeb url(../images/droparrow.jpg) no-repeat right center;
+      border: solid 1px #959595; }
+    .welcome section button {
+      font: 16px/22px "rajdhanisemibold";
+      color: #fff;
+      padding: 10px 15px;
+      background: #007149;
+      margin: 0 15px;
+      text-transform: uppercase; }
+    .welcome section button:hover {
+      background: #00502f; }
+
+.featured {
+  position: relative;
+  height: 49.44444%;
+  background: #007149; }
+  .featured h3 {
+    font: 40px/46px "ralewaysemibold";
+    margin-bottom: 15px; }
+  .featured p {
+    font: 18px/30px "robotoregular";
+    margin-bottom: 60px; }
+  .featured ul {
+    list-style: none; }
+    .featured ul li {
+      display: inline-block;
+      margin-right: 30px; }
+      .featured ul li a {
+        color: #fff;
+        font: 24px/30px "rajdhanisemibold";
+        padding: 10px 15px;
+        border: solid 3px #fff;
+        text-transform: uppercase; }
+      .featured ul li a:hover {
+        background: #00502f; }
+    .featured ul li:last-child {
+      margin-right: 0; }
+  .featured .featleft {
+    width: 54.375%;
+    cursor: pointer;
+    -webkit-clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    float: left;
+    position: absolute;
+    z-index: 50;
+    height: 100%; }
+    .featured .featleft div {
+      position: relative;
+      z-index: 1;
+      height: 100%; }
+      .featured .featleft div div.overlay {
+        position: absolute;
+        z-index: 15;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.3); }
+    .featured .featleft aside {
+      position: absolute;
+      bottom: 0;
+      z-index: 10;
+      background: #009e66;
+      padding: 10px 14% 10px 20px;
+      box-sizing: border-box; }
+      .featured .featleft aside h2 {
+        font: 24px/36px "ralewaysemibold";
+        padding-right: 40px;
+        background: url(../images/arrow.png) no-repeat right center;
+        letter-spacing: 2px; }
+      .featured .featleft aside img {
+        height: 100%;
+        width: auto;
+        float: right; }
+  .featured .featleft:hover aside {
+    background: #00502f; }
+  .featured .employee {
+    display: none;
+    top: 0;
+    right: 0;
+    position: absolute;
+    z-index: 49;
+    background: #007149;
+    height: 100%;
+    width: 54.375%;
+    box-sizing: border-box;
+    padding: 35px 30px 35px 10%; }
+  .featured .featright {
+    width: 54.375%;
+    cursor: pointer;
+    right: 0;
+    height: 100%;
+    position: absolute;
+    z-index: 49px;
+    box-sizing: border-box; }
+    .featured .featright div {
+      position: relative;
+      z-index: 1;
+      height: 100%; }
+      .featured .featright div div.overlay {
+        position: absolute;
+        z-index: 15;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.3); }
+    .featured .featright aside {
+      position: absolute;
+      bottom: 0;
+      z-index: 10;
+      background: #009e66;
+      padding: 10px 20px 10px 90px;
+      box-sizing: border-box; }
+      .featured .featright aside h2 {
+        font: 24px/36px "ralewaysemibold";
+        padding-right: 40px;
+        background: url(../images/arrow.png) no-repeat right center;
+        letter-spacing: 2px; }
+      .featured .featright aside img {
+        height: 100%;
+        width: auto;
+        float: right; }
+  .featured .reap {
+    display: none;
+    top: 0;
+    left: 0;
+    position: relative;
+    z-index: 50;
+    background: url(../images/greenbg.png) no-repeat left top;
+    background-size: cover;
+    -webkit-clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    height: 100%;
+    width: 54.375%;
+    width: 54.375%;
+    box-sizing: border-box;
+    padding: 35px 90px 35px 60px; }
+  .featured .featright:hover aside {
+    background: #00502f; }
+  .featured .featleft:hover div.overlay, .featured .featright:hover div.overlay {
+    background: rgba(0, 0, 0, 0.5); }
+
+.projects-promos {
+  height: 28.889%;
+  padding: 8px 0;
+  box-sizing: border-box;
+  position: relative; }
+  .projects-promos article.estates {
+    width: 42%;
+    height: 100%; }
+    .projects-promos article.estates .rslides {
+      height: 100%; }
+      .projects-promos article.estates .rslides .carousel-cell {
+        height: 100%;
+        position: relative; }
+        .projects-promos article.estates .rslides .carousel-cell aside {
+          position: absolute;
+          right: 0;
+          bottom: 20px;
+          z-index: 100; }
+    .projects-promos article.estates .flickity-page-dots {
+      bottom: 5px !important; }
+  .projects-promos aside.promos {
+    width: 26.042%;
+    height: 100%;
+    position: relative;
+    margin: 0 1.389%;
+    background: #dadada; }
+    .projects-promos aside.promos .carousel {
+      height: 250px; }
+      .projects-promos aside.promos .carousel .carousel-cell {
+        background: #dadada;
+        text-align: center;
+        height: 100%;
+        position: relative; }
+  .projects-promos h3 {
+    position: absolute;
+    top: 10px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 95% 100%, 0% 100%);
+    left: 0;
+    border-left: solid 13px #007149;
+    background: #fff;
+    z-index: 100;
+    font: 20px/26px "rajdhanisemibold";
+    color: #000;
+    padding: 5px 40px 3px 10px;
+    text-transform: uppercase; }
+  .projects-promos .other-links {
+    width: 29.167%;
+    color: #000;
+    position: relative;
+    height: 100%;
+    box-sizing: border-box;
+    padding-right: 30px; }
+    .projects-promos .other-links ul {
+      list-style: none;
+      height: 100%; }
+      .projects-promos .other-links ul li {
+        height: 17.033%;
+        margin-bottom: 1.7%;
+        box-sizing: border-box;
+        border: solid 1px #dadada;
+        position: relative; }
+        .projects-promos .other-links ul li a {
+          color: #000;
+          cursor: pointer;
+          height: 100%;
+          font: 20px/26px "rajdhanisemibold"; }
+          .projects-promos .other-links ul li a span {
+            width: 75px;
+            position: absolute;
+            text-align: center;
+            height: 100%;
+            z-index: 10;
+            left: 0;
+            top: 0;
+            text-align: center;
+            border-right: solid 1px #dadada; }
+          .projects-promos .other-links ul li a label {
+            position: relative;
+            height: 100%;
+            top: 0;
+            z-index: 15;
+            left: 0;
+            padding: 10px 10px 0 90px;
+            box-sizing: border-box; }
+        .projects-promos .other-links ul li a:hover {
+          background: #dadada;
+          cursor: pointer; }
+      .projects-promos .other-links ul li:last-child {
+        margin: 0; }
+
+footer {
+  position: relative;
+  height: 6.444%;
+  border-top: solid 1px #dadada;
+  background: #f4f4f4;
+  position: relative;
+  z-index: 100;
+  padding: 0 30px;
+  box-sizing: border-box;
+  text-align: right; }
+  footer a {
+    color: #919296;
+    text-transform: uppercase; }
+  footer article {
+    width: auto;
+    text-align: left;
+    padding: 10px 0 0;
+    box-sizing: border-box;
+    height: 100%; }
+    footer article ul {
+      list-style: none; }
+      footer article ul li {
+        display: inline-block;
+        margin-right: 15px;
+        height: 100%; }
+    footer article span {
+      width: 150px;
+      padding-right: 15px;
+      font: 16px/22px "rajdhanisemibold";
+      color: #000; }
+  footer aside {
+    width: auto;
+    padding: 10px 0 0;
+    box-sizing: border-box; }
+    footer aside ul {
+      list-style: none; }
+      footer aside ul li {
+        display: inline-block;
+        border-left: solid 1px #dadada;
+        padding-left: 15px;
+        margin-left: 15px; }
+        footer aside ul li a {
+          color: #000;
+          font: 14px/22px "robotoregular";
+          text-decoration: underline; }
+      footer aside ul li:first-child {
+        border: 0; }
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+.rslides div {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0; }
+
+.rslides div:first-child {
+  position: relative;
+  display: block;
+  float: left; }
+
+.rslides img {
+  display: block;
+  border: 0; }
+
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto; }
+
+/*# sourceMappingURL=styles.css.map */

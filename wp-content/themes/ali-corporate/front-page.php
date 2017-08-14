@@ -1,54 +1,41 @@
-<?php
-/**
- * The front page template file
- *
- * If the user has selected a static page for their homepage, this is what will
- * appear.
- * Learn more: https://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage Twenty_Seventeen
- * @since 1.0
- * @version 1.0
- */
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Ayala Land Residential Business Group</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/styles.css">
+	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/responsive.css">
 
-get_header(); ?>
+	<!--[if lt IE 9]>
+	<script src="js/html5.js"></script>
+	<![endif]-->
+	<!-- css3-mediaqueries.js for IE less than 9 -->
+	<!--[if lt IE 9]>
+	<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	<?php wp_head(); ?>
 
-<div id="primary" class="content-area">
-	<main id="main" class="site-main" role="main">
+</head>
 
-		<?php // Show the selected frontpage content.
-		if ( have_posts() ) :
-			while ( have_posts() ) : the_post();
-				get_template_part( 'template-parts/page/content', 'front-page' );
-			endwhile;
-		else : // I'm not sure it's possible to have no posts when this page is shown, but WTH.
-			get_template_part( 'template-parts/post/content', 'none' );
-		endif; ?>
-
-		<?php
-		// Get each of our panels and show the post data.
-		if ( 0 !== twentyseventeen_panel_count() || is_customize_preview() ) : // If we have pages to show.
-
-			/**
-			 * Filter number of front page sections in Twenty Seventeen.
-			 *
-			 * @since Twenty Seventeen 1.0
-			 *
-			 * @param int $num_sections Number of front page sections.
-			 */
-			$num_sections = apply_filters( 'twentyseventeen_front_page_sections', 4 );
-			global $twentyseventeencounter;
-
-			// Create a setting and control for each of the sections available in the theme.
-			for ( $i = 1; $i < ( 1 + $num_sections ); $i++ ) {
-				$twentyseventeencounter = $i;
-				twentyseventeen_front_page_section( null, $i );
-			}
-
-	endif; // The if ( 0 !== twentyseventeen_panel_count() ) ends here. ?>
-
-	</main><!-- #main -->
-</div><!-- #primary -->
-
-<?php get_footer();
+<body>
+	<header>
+		<a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ayalaland-logo.jpg" width="240" height="80" alt="Ayala Land logo"></a>
+	</header>
+	<article class="welcome">
+		<section>
+			<h2>Welcome to</h2>
+			<h1>Residential Business Group</h1>
+			<p>Please Select Your Employer</p>
+			<ul>
+				<li><a href="index-age.html">Ayala Group Employee</a></li>
+				<li><a href="index-op.html">Outside Partners</a></li>
+				<li><a href="bank-institutional-offers.html">Bank/Institutional Offers</a></li>
+			</ul>
+		</section>
+		<div class="overlay"></div>
+	</article>
+	<?php wp_footer(); ?>
+	
+</body>
+</html>

@@ -1,0 +1,59 @@
+@media screen and (max-width: 1680px) and (min-width: 1441px) {
+	.property-finder label {padding-top: 25px!important;}
+	.projects-promos .other-links ul li a label {padding-top: 15px!important}
+	footer {padding-top: 15px;}
+}
+@media screen and (max-width: 1440px) and (min-width: 1367px) {
+	footer {padding-top: 10px;}
+}
+@media screen and (max-width: 1024px) and (min-width: 801px) {
+	.welcome section {padding-top: 35%;}
+	.welcome section ul {max-width: 100%;}
+	.welcome section ul li {padding: 0 15px!important;}
+	.welcome section ul li a {width: 100%; font-size: 18px; line-height: 24px;}
+}
+
+/************************************************************************************
+smaller than 800
+*************************************************************************************/
+@media screen and (max-width: 800px) and (min-width: 640px) {
+	.welcome {position: relative; height: auto;}
+	.welcome section {padding-top: 20%;}
+	.welcome section h1 {font-size: 40px; line-height: 46px; margin-bottom: 40px}
+	.welcome section h2 {font-size: 28px; line-height: 34px;}
+	.welcome section ul {max-width: 298px;}
+	.welcome section ul li {padding: 0 15px!important; display: block!important; width: 100%; margin-bottom: 20px; clear: both;}
+	.welcome section ul li a {width: 100%; font-size: 18px; line-height: 24px;}
+
+}
+
+/************************************************************************************
+smaller than 560
+*************************************************************************************/
+@media screen and (max-width: 639px) and (min-width: 481px) {
+	header {text-align: center;}
+	header img {text-align: center; float: none;}
+	.welcome {position: relative; height: auto;}
+	.welcome section {padding: 25% 30px 0;}
+	.welcome section h1 {font-size: 36px!important; line-height: 42px!important; margin-bottom: 40px}
+	.welcome section h2 {font-size: 24px; line-height: 30px;}
+	.welcome section ul {max-width: 298px;}
+	.welcome section ul li {padding: 0 15px!important; display: block!important; width: 100%; margin-bottom: 20px; clear: both;}
+	.welcome section ul li a {width: 100%; font-size: 22px; line-height: 28px;}
+	}
+/************************************************************************************
+smaller than 480
+*************************************************************************************/
+@media screen and (max-width: 480px) and (min-width: 240px) {
+	header {text-align: center;}
+	header img {text-align: center; float: none;}
+	.welcome {position: relative; height: 100%; background-size: auto 100%; }
+	.welcome section {padding: 35% 30px 0;}
+	.welcome section h1 {font-size: 30px!important; line-height: 36px!important; margin-bottom: 20px}
+	.welcome section h2 {font-size: 20px; line-height: 24px;}
+	.welcome section ul {max-width: 298px;}
+	.welcome section ul li {padding: 0 15px!important; display: block!important; width: 100%; margin-bottom: 20px; clear: both;}
+	.welcome section ul li a {width: 100%; font-size: 18px; line-height: 24px; padding: 10px 0;}
+	
+	}
+
