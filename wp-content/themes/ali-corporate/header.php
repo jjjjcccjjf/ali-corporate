@@ -12,6 +12,29 @@
 * @version 1.0
 */
 
+/**
+ * Returns the price rounded up with English shortcut
+ * such as K, M, B
+ * @param  int     $n    unformatted price
+ * @return string        [description]
+ */
+function formatPrice($n)
+{
+	if ($n < 1000000) {
+		// Anything less than a million
+		$f = round(number_format($n / 1000, 3), 2);
+		$f .= 'K';
+	} else if ($n < 1000000000) {
+		// Anything less than a billion
+		$f = round(number_format($n / 1000000, 3), 2);
+		$f .= 'M';
+	} else {
+		// At least a billion
+		$f = round(number_format($n / 1000000000, 3), 2);
+		$f .= 'B';
+	}
+	return 'P' . $f;
+}
 ?>
 <!doctype html>
 <html lang="en">
@@ -38,7 +61,7 @@
 
 <body>
 	<header class="inside">
-		<a href="index.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ayalaland-logo.jpg" width="240" height="80" alt="Ayala Land logo"></a>
+		<a href="<?php echo site_url() ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ayalaland-logo.jpg" width="240" height="80" alt="Ayala Land logo"></a>
 		<aside>
 			<h1>Bank/Institutional Offers</h1>
 		</aside>
