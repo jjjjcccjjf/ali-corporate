@@ -47,21 +47,39 @@ if($_GET['price_range'] != null){
   $lower = $price_range[0];
   $higher = $price_range[1];
 
-  $price_range_filter = array(
+  $price_range_filter_min = array(
     'key' => 'min_price',
-    // value should be array of (lower, higher) with BETWEEN
     'value' => array($lower, $higher),
     'compare' => 'BETWEEN',
     'type' => 'NUMERIC'
+  );
+
+  $price_range_filter_max = array(
+    'key' => 'max_price',
+    'value' => array($lower, $higher),
+    'compare' => 'BETWEEN',
+    'type' => 'NUMERIC'
+  );
+
+  if($higher == 'ABOVE'){
+    $price_range_filter_max = array(
+      'key' => 'max_price',
+      'value' => 30000001, # HACK: Harharhar 
+      'compare' => '>=',
+      'type' => 'NUMERIC'
+    );
+  }
+
+  $price_range_filter = array(
+    'relation' => 'OR',
+    $price_range_filter_min,
+    $price_range_filter_max,
   );
 
 }else{
   $price_range_filter = [];
 }
 
-// var_dump($brand_filter); echo "<br><br><br><br><br>";
-// var_dump($location_filter); echo "<br><br><br><br><br>";
-// var_dump($property_type_filter); die();
 ////////////////////////////
 //                        //
 // End meta query filters //
