@@ -35,6 +35,30 @@ function formatPrice($n)
 	}
 	return 'P' . $f;
 }
+
+$GLOBALS['price_range']['500K - 1M'] = "500000-1000000";
+$GLOBALS['price_range']['1M - 2M'] = "1000000-2000000";
+$GLOBALS['price_range']['2M - 3M'] = "2000000-3000000";
+$GLOBALS['price_range']['3M - 4M'] = "3000000-4000000";
+$GLOBALS['price_range']['4M - 5M'] = "4000000-5000000";
+$GLOBALS['price_range']['5M - 6M'] = "5000000-6000000";
+$GLOBALS['price_range']['6M - 7M'] = "6000000-7000000";
+$GLOBALS['price_range']['7M - 8M'] = "7000000-8000000";
+$GLOBALS['price_range']['8M - 9M'] = "8000000-9000000";
+$GLOBALS['price_range']['9M - 10M'] = "9000000-10000000";
+$GLOBALS['price_range']['10M - 12M'] = "10000000-12000000";
+$GLOBALS['price_range']['12M - 14M'] = "12000000-14000000";
+$GLOBALS['price_range']['14M - 16M'] = "14000000-16000000";
+$GLOBALS['price_range']['16M - 18M'] = "16000000-18000000";
+$GLOBALS['price_range']['18M - 20M'] = "18000000-20000000";
+$GLOBALS['price_range']['20M - 25M'] = "20000000-25000000";
+$GLOBALS['price_range']['25M - 30M'] = "25000000-30000000";
+$GLOBALS['price_range']['30M - ABOVE'] = "30000000-ABOVE";
+
+# BUG: Dunno what sets these two indeces but we're gonna remove them
+unset($GLOBALS['price_range'][0]);
+unset($GLOBALS['price_range'][1]);
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -87,24 +111,9 @@ function formatPrice($n)
 				<li>
 					<select name="price_range">
 						<option value="">Price Range</option>
-						<option>500K - 1M</option>
-						<option>1M - 2M</option>
-						<option>2M - 3M</option>
-						<option>3M - 4M</option>
-						<option>4M - 5M</option>
-						<option>5M - 6M</option>
-						<option>6M - 7M</option>
-						<option>7M - 8M</option>
-						<option>8M - 9M</option>
-						<option>9M - 10M</option>
-						<option>10M - 12M</option>
-						<option>12M - 14M</option>
-						<option>14M - 16M</option>
-						<option>16M - 18M</option>
-						<option>18M - 20M</option>
-						<option>20M - 25M</option>
-						<option>25M - 30M</option>
-						<option>30M - ABOVE</option>
+						<?php foreach($GLOBALS['price_range'] as $key => $val): ?>
+							<option <?php echo (@$_GET['price_range'] == $val) ? 'selected' : '' ;?> value="<?php echo $val ?>"><?php echo $key ?></option>
+						<?php endforeach; ?>
 					</select>
 				</li>
 				<li>
