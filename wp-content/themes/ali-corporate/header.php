@@ -77,9 +77,9 @@ function formatPrice($n)
 						$field_key = "field_59914624f4ae2";
 						$field = get_field_object($field_key);
 						if($field){
-							foreach( $field['choices'] as $choice ) {
-								echo '<option>' . $choice . '</option>';
-							}
+							foreach( $field['choices'] as $choice ) {  ?>
+								<option <?php echo (@$_GET['property_type'] == $choice) ? 'selected' : '' ;?> ><?php echo $choice; ?></option>
+							<?php  }
 						}
 						?>
 					</select>
@@ -110,41 +110,12 @@ function formatPrice($n)
 				<li>
 					<select name="location">
 						<option value="">Location</option>
-						<option>Alabang</option>
-						<option>Bacolod</option>
-						<option>Bataan</option>
-						<option>Batangas</option>
-						<option>Bonifacio Global City</option>
-						<option>Bulacan</option>
-						<option>Cagayan de Oro</option>
-						<option>Caloocan City</option>
-						<option>Camarines Sur</option>
-						<option>Cavite</option>
-						<option>Cebu</option>
-						<option>Cebu City</option>
-						<option>Davao</option>
-						<option>Iloilo</option>
-						<option>Laguna</option>
-						<option>Makati City</option>
-						<option>Mandaluyong City</option>
-						<option>Mandaue City</option>
-						<option>Manila</option>
-						<option>Muntinlupa City</option>
-						<option>Negros Occidental</option>
-						<option>Nueva Ecija</option>
-						<option>Nuvali</option>
-						<option>Pampanga</option>
-						<option>Pangasinan</option>
-						<option>Paranaque City</option>
-						<option>Pasay City</option>
-						<option>Pasig City</option>
-						<option>Pulilan, Bulacan</option>
-						<option>Quezon</option>
-						<option>Quezon City</option>
-						<option>Tagaytay</option>
-						<option>Taguig</option>
-						<option>Taguig City</option>
-						<option>Tarlac</option>
+						<?php
+						$args = array('post_type' => 'location', 'posts_per_page' => -1, 'order' => 'ASC');
+						$the_query = new WP_Query($args);
+						if ( $the_query->have_posts() ) {  while ( $the_query->have_posts() ): $the_query->the_post(); ?>
+							<option <?php echo (@$_GET['location'] == get_the_title()) ? 'selected' : '' ;?> ><?php the_title(); ?></option>
+						<?php endwhile; wp_reset_postdata(); } else { /** no posts found **/ } ?>
 					</select>
 				</li>
 				<li>
