@@ -24,7 +24,7 @@ $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
       <ul>
 
         <?php
-        $args = array('post_type' => 'project', 'posts_per_page' => 1, 'paged' => $paged);
+        $args = array('post_type' => 'project', 'posts_per_page' => 12, 'paged' => $paged);
         $the_query = new WP_Query($args);
         if ( $the_query->have_posts() ) {  while ( $the_query->have_posts() ): $the_query->the_post(); ?>
 

@@ -13,11 +13,11 @@
 */
 
 /**
- * Returns the price rounded up with English shortcut
- * such as K, M, B
- * @param  int     $n    unformatted price
- * @return string        [description]
- */
+* Returns the price rounded up with English shortcut
+* such as K, M, B
+* @param  int     $n    unformatted price
+* @return string        [description]
+*/
 function formatPrice($n)
 {
 	if ($n < 1000000) {
@@ -71,18 +71,17 @@ function formatPrice($n)
 		<label>Property Finder</label>
 		<ul>
 			<li>
-				<select>
-					<option>Project Type</option>
-					<option>Lot</option>
-					<option>Condominium</option>
-					<option>House &amp; Lot</option>
-					<option>Townhome</option>
-					<option>Leisure Club Share</option>
-					<option>Offices</option>
-					<option>Estates</option>
-					<option>Shophouse Development</option>
-					<option>Commercial Lots</option>
-					<option>Leisure</option>
+				<select name="property_type">
+					<option>Property Type</option>
+					<?php
+					$field_key = "field_59914624f4ae2";
+					$field = get_field_object($field_key);
+					if($field){
+						foreach( $field['choices'] as $choice ) {
+							echo '<option>' . $choice . '</option>';
+						}
+					}
+					?>
 				</select>
 			</li>
 			<li>
