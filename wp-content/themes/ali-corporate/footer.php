@@ -18,11 +18,11 @@
 	<article>
 		<span>Our Residential Brands</span>
 		<ul>
-			<li><a href="projects.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/alp.jpg"></a></li>
-			<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/alveo.jpg"></a></li>
-			<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/avida.jpg"></a></li>
-			<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/amaia.jpg"></a></li>
-			<li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/bellavita.jpg"></a></li>
+			<li><a href="<?php echo get_permalink(47) . "?brand=alp" ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/alp.jpg"></a></li>
+			<li><a href="<?php echo get_permalink(47) . "?brand=alveo" ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/alveo.jpg"></a></li>
+			<li><a href="<?php echo get_permalink(47) . "?brand=avida" ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/avida.jpg"></a></li>
+			<li><a href="<?php echo get_permalink(47) . "?brand=amaia" ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/amaia.jpg"></a></li>
+			<li><a href="<?php echo get_permalink(47) . "?brand=bellavita" ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/bellavita.jpg"></a></li>
 		</ul>
 	</article>
 	<aside>

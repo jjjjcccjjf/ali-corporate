@@ -67,89 +67,89 @@ function formatPrice($n)
 		</aside>
 	</header>
 	<section class="property-finder">
-
-		<label>Property Finder</label>
-		<ul>
-			<li>
-				<select name="property_type">
-					<option>Property Type</option>
-					<?php
-					$field_key = "field_59914624f4ae2";
-					$field = get_field_object($field_key);
-					if($field){
-						foreach( $field['choices'] as $choice ) {
-							echo '<option>' . $choice . '</option>';
+		<form action="<?php echo get_permalink(47) ?>" method="get">
+			<label>Property Finder</label>
+			<ul>
+				<li>
+					<select name="property_type">
+						<option value="">Property Type</option>
+						<?php
+						$field_key = "field_59914624f4ae2";
+						$field = get_field_object($field_key);
+						if($field){
+							foreach( $field['choices'] as $choice ) {
+								echo '<option>' . $choice . '</option>';
+							}
 						}
-					}
-					?>
-				</select>
-			</li>
-			<li>
-				<select>
-					<option>Price Range</option>
-					<option>500K - 1M</option>
-					<option>1M - 2M</option>
-					<option>2M - 3M</option>
-					<option>3M - 4M</option>
-					<option>4M - 5M</option>
-					<option>5M - 6M</option>
-					<option>6M - 7M</option>
-					<option>7M - 8M</option>
-					<option>8M - 9M</option>
-					<option>9M - 10M</option>
-					<option>10M - 12M</option>
-					<option>12M - 14M</option>
-					<option>14M - 16M</option>
-					<option>16M - 18M</option>
-					<option>18M - 20M</option>
-					<option>20M - 25M</option>
-					<option>25M - 30M</option>
-					<option>30M - ABOVE</option>
-				</select>
-			</li>
-			<li>
-				<select>
-					<option>Location</option>
-					<option>Alabang</option>
-					<option>Bacolod</option>
-					<option>Bataan</option>
-					<option>Batangas</option>
-					<option>Bonifacio Global City</option>
-					<option>Bulacan</option>
-					<option>Cagayan de Oro</option>
-					<option>Caloocan City</option>
-					<option>Camarines Sur</option>
-					<option>Cavite</option>
-					<option>Cebu</option>
-					<option>Cebu City</option>
-					<option>Davao</option>
-					<option>Iloilo</option>
-					<option>Laguna</option>
-					<option>Makati City</option>
-					<option>Mandaluyong City</option>
-					<option>Mandaue City</option>
-					<option>Manila</option>
-					<option>Muntinlupa City</option>
-					<option>Negros Occidental</option>
-					<option>Nueva Ecija</option>
-					<option>Nuvali</option>
-					<option>Pampanga</option>
-					<option>Pangasinan</option>
-					<option>Paranaque City</option>
-					<option>Pasay City</option>
-					<option>Pasig City</option>
-					<option>Pulilan, Bulacan</option>
-					<option>Quezon</option>
-					<option>Quezon City</option>
-					<option>Tagaytay</option>
-					<option>Taguig</option>
-					<option>Taguig City</option>
-					<option>Tarlac</option>
-				</select>
-			</li>
-			<li>
-				<input type="submit" name="searchbtn" value="SEARCH" >
-			</li>
-		</ul>
-
+						?>
+					</select>
+				</li>
+				<li>
+					<select name="price_range">
+						<option value="">Price Range</option>
+						<option>500K - 1M</option>
+						<option>1M - 2M</option>
+						<option>2M - 3M</option>
+						<option>3M - 4M</option>
+						<option>4M - 5M</option>
+						<option>5M - 6M</option>
+						<option>6M - 7M</option>
+						<option>7M - 8M</option>
+						<option>8M - 9M</option>
+						<option>9M - 10M</option>
+						<option>10M - 12M</option>
+						<option>12M - 14M</option>
+						<option>14M - 16M</option>
+						<option>16M - 18M</option>
+						<option>18M - 20M</option>
+						<option>20M - 25M</option>
+						<option>25M - 30M</option>
+						<option>30M - ABOVE</option>
+					</select>
+				</li>
+				<li>
+					<select name="location">
+						<option value="">Location</option>
+						<option>Alabang</option>
+						<option>Bacolod</option>
+						<option>Bataan</option>
+						<option>Batangas</option>
+						<option>Bonifacio Global City</option>
+						<option>Bulacan</option>
+						<option>Cagayan de Oro</option>
+						<option>Caloocan City</option>
+						<option>Camarines Sur</option>
+						<option>Cavite</option>
+						<option>Cebu</option>
+						<option>Cebu City</option>
+						<option>Davao</option>
+						<option>Iloilo</option>
+						<option>Laguna</option>
+						<option>Makati City</option>
+						<option>Mandaluyong City</option>
+						<option>Mandaue City</option>
+						<option>Manila</option>
+						<option>Muntinlupa City</option>
+						<option>Negros Occidental</option>
+						<option>Nueva Ecija</option>
+						<option>Nuvali</option>
+						<option>Pampanga</option>
+						<option>Pangasinan</option>
+						<option>Paranaque City</option>
+						<option>Pasay City</option>
+						<option>Pasig City</option>
+						<option>Pulilan, Bulacan</option>
+						<option>Quezon</option>
+						<option>Quezon City</option>
+						<option>Tagaytay</option>
+						<option>Taguig</option>
+						<option>Taguig City</option>
+						<option>Tarlac</option>
+					</select>
+				</li>
+				<li>
+					<input type="submit" >
+				</li>
+			</ul>
+		</form>
 	</section>

@@ -1,25 +1,32 @@
 <?php
 /* Template Name: Projects */
 
+$_GET['location'];
+$_GET['price_range'];
+$_GET['property_type'];
+$brands = isset($_GET['brand']);
 
 get_header();
 while(have_posts()): the_post();
 
 include_once('function-pagination.php');
 $paged = ( get_query_var('paged') ) ? get_query_var('paged') : 1;
+
 ?>
 
 <section class="projects">
   <article class="properties">
-    <aside>
-      <ul>
-        <li class="active"><a href="projects.html"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/alp.jpg"></a></li>
-        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/alveo.jpg"></a></li>
-        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/avida.jpg"></a></li>
-        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/amaia.jpg"></a></li>
-        <li><a href="#"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/bellavita.jpg"></a></li>
-      </ul>
-    </aside>
+    <?php if($brands): ?>
+      <aside>
+        <ul>
+          <li class="<?php echo ($_GET['brand'] == 'alp') ? 'active' : '' ;?>"><a href="<?php echo get_permalink(47) . "?brand=alp" ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/alp.jpg"></a></li>
+          <li class="<?php echo ($_GET['brand'] == 'alveo') ? 'active' : '' ;?>"><a href="<?php echo get_permalink(47) . "?brand=alveo" ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/alveo.jpg"></a></li>
+          <li class="<?php echo ($_GET['brand'] == 'avida') ? 'active' : '' ;?>"><a href="<?php echo get_permalink(47) . "?brand=avida" ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/avida.jpg"></a></li>
+          <li class="<?php echo ($_GET['brand'] == 'amaia') ? 'active' : '' ;?>"><a href="<?php echo get_permalink(47) . "?brand=amaia" ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/amaia.jpg"></a></li>
+          <li class="<?php echo ($_GET['brand'] == 'bellavita') ? 'active' : '' ;?>"><a href="<?php echo get_permalink(47) . "?brand=bellavita" ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/bellavita.jpg"></a></li>
+        </ul>
+      </aside>
+    <?php endif; ?>
     <div>
       <ul>
 
