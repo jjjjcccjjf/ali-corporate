@@ -44,17 +44,17 @@
   width: 83.33333%;
   margin: 0 auto; }
 
-.fleft, header, header img, .property-finder, .property-finder label, .property-finder ul, .property-finder ul li, .welcome, .welcome section, .welcome section ul li, .welcome section ul li a, .featured, .featured ul, .featured .featleft div, .featured .featleft aside, .featured .featleft aside h2, .featured .employee, .featured .featright, .featured .featright div, .featured .featright aside, .featured .featright aside h2, .featured .reap, .featured-offers, .featured-offers article, .featured-offers aside, .bank-partners, .projects-promos, .projects-promos article.estates, .projects-promos article.estates .rslides, .projects-promos article.estates .rslides .carousel-cell, .projects-promos aside.promos, .projects-promos aside.promos .carousel, .projects-promos aside.promos .carousel .carousel-cell, .projects-promos .other-links ul, .projects-promos .other-links ul li, .projects-promos .other-links ul li a, .projects-promos .other-links ul li a span, .projects-promos .other-links ul li a label, .projects, .projects .banner, .projects .overview, .projects .overview figure, .projects .overview figcaption, .projects .properties, .projects .properties aside, .projects .properties aside ul, .projects .properties div, .projects .properties div ul, .projects .properties div ul li figure, .projects .properties div ul li figcaption, .projects .properties div ul li figcaption .price, .projects .properties section, .projects article.forms, .projects article.forms aside.tab, .projects article.forms aside.tab ul, .projects article.forms aside.tab ul li a, .projects article.forms .forms-main, .projects article.forms .forms-main ul li, .projects article.forms .forms-main ul li ul li, .projects article.forms .forms-main ul li label, .projects article.forms .forms-main ul li input[type="radio"], .projects article.forms .forms-main ul li p input[type="checkbox"], .projects article.forms .forms-main ul li a, .projects .refer, .projects .other-links ul, .projects .other-links ul li, .projects .other-links ul li a, .projects .other-links ul li a span, .projects .other-links ul li a label, footer, footer article, footer article ul, footer article span, .rslides img, #projdesc ul li a, #projdesc div figure, #projdesc div aside, #projdesc div aside ul {
+.fleft, header, header img, .property-finder, .property-finder label, .property-finder ul, .property-finder ul li, .welcome, .welcome section, .welcome section ul li, .welcome section ul li a, .featured, .featured ul, .featured .featleft div, .featured .featleft aside, .featured .featleft aside h2, .featured .employee, .featured .featright, .featured .featright div, .featured .featright aside, .featured .featright aside h2, .featured .reap, .featured-offers, .featured-offers article, .featured-offers aside, .bank-partners, .projects-promos, .projects-promos article.estates, .projects-promos article.estates .rslides, .projects-promos article.estates .rslides .carousel-cell, .projects-promos aside.promos, .projects-promos aside.promos .carousel, .projects-promos aside.promos .carousel .carousel-cell, .projects-promos .other-links ul, .projects-promos .other-links ul li, .projects-promos .other-links ul li a, .projects-promos .other-links ul li a span, .projects-promos .other-links ul li a label, .projects, .projects .banner, .projects .overview, .projects .overview figure, .projects .overview figcaption, .projects .properties, .projects .properties aside, .projects .properties aside ul, .projects .properties div, .projects .properties div ul, .projects .properties div ul li figure, .projects .properties div ul li figcaption, .projects .properties div ul li figcaption .price, .projects .properties section, .projects article.forms, .projects article.forms aside.tab, .projects article.forms aside.tab ul, .projects article.forms aside.tab ul li a, .projects article.forms .forms-main, .projects article.forms .forms-main ul li, .projects article.forms .forms-main ul li ul li, .projects article.forms .forms-main ul li label, .projects article.forms .forms-main ul li input[type="radio"], .projects article.forms .forms-main ul li p input[type="checkbox"], .projects article.forms .forms-main ul li a, .projects .refer, .projects .other-links ul, .projects .other-links ul li, .projects .other-links ul li a, .projects .other-links ul li a span, .projects .other-links ul li a label, footer, footer article, footer article ul, footer article span, .rslides img, .projdesc ul li a, .projdesc div figure, .projdesc div aside, .projdesc div aside ul {
   float: left; }
 
-.fright, header aside, .projects-promos .other-links, .projects .properties div ul li figcaption .type-location, .projects article.forms .forms-main ul li ul, .projects article.forms .forms-main ul li input[type="text"], .projects article.forms .forms-main ul li input[type="email"], .projects article.forms .forms-main ul li textarea, .projects article.forms .forms-main ul li select, .projects article.forms .forms-main ul li input[type="submit"], .projects article.forms .forms-main ul li p, .projects .other-links, footer aside, #projdesc div article {
+.fright, header aside, .projects-promos .other-links, .projects .properties div ul li figcaption .type-location, .projects article.forms .forms-main ul li ul, .projects article.forms .forms-main ul li input[type="text"], .projects article.forms .forms-main ul li input[type="email"], .projects article.forms .forms-main ul li textarea, .projects article.forms .forms-main ul li select, .projects article.forms .forms-main ul li input[type="submit"], .projects article.forms .forms-main ul li p, .projects .other-links, footer aside, .projdesc div article {
   float: right; }
 
 .w100 {
   width: 100%;
   float: left; }
 
-.wid100, header, .property-finder, .property-finder ul, .property-finder ul li select, .welcome, .welcome section, .welcome section select, .featured, .featured ul, .featured .featleft div, .featured .featleft aside, .featured .featright div, .featured .featright aside, .featured-offers, .featured-offers article, .bank-partners, .bank-partners .carousel, .projects-promos, .projects-promos article.estates .rslides, .projects-promos article.estates .rslides .carousel-cell, .projects-promos aside.promos .carousel, .projects-promos aside.promos .carousel .carousel-cell, .projects-promos .other-links ul, .projects-promos .other-links ul li, .projects-promos .other-links ul li a, .projects-promos .other-links ul li a label, .projects, .projects .banner, .projects .overview, .projects .overview figcaption, .projects .properties aside, .projects .properties aside ul, .projects .properties div, .projects .properties div ul, .projects .properties div ul li figure, .projects .properties div ul li figcaption, .projects .properties section, .projects article.forms aside.tab, .projects article.forms aside.tab ul, .projects article.forms .forms-main, .projects article.forms .forms-main ul li, .projects .refer, .projects .other-links ul, .projects .other-links ul li, .projects .other-links ul li a, .projects .other-links ul li a label, footer, #projdesc ul li a, #projdesc div aside, #projdesc div aside ul {
+.wid100, header, .property-finder, .property-finder ul, .property-finder ul li select, .welcome, .welcome section, .welcome section select, .featured, .featured ul, .featured .featleft div, .featured .featleft aside, .featured .featright div, .featured .featright aside, .featured-offers, .featured-offers article, .bank-partners, .bank-partners .carousel, .projects-promos, .projects-promos article.estates .rslides, .projects-promos article.estates .rslides .carousel-cell, .projects-promos aside.promos .carousel, .projects-promos aside.promos .carousel .carousel-cell, .projects-promos .other-links ul, .projects-promos .other-links ul li, .projects-promos .other-links ul li a, .projects-promos .other-links ul li a label, .projects, .projects .banner, .projects .overview, .projects .overview figcaption, .projects .properties aside, .projects .properties aside ul, .projects .properties div, .projects .properties div ul, .projects .properties div ul li figure, .projects .properties div ul li figcaption, .projects .properties section, .projects article.forms aside.tab, .projects article.forms aside.tab ul, .projects article.forms .forms-main, .projects article.forms .forms-main ul li, .projects .refer, .projects .other-links ul, .projects .other-links ul li, .projects .other-links ul li a, .projects .other-links ul li a label, footer, .projdesc ul li a, .projdesc div aside, .projdesc div aside ul {
   width: 100%; }
 
 .defimg, .projects .banner img, .projects .overview figure img {
@@ -65,7 +65,7 @@
   width: auto;
   height: 100%; }
 
-.coverimg, .featured .featleft div img, .featured .featright div img, .featured-offers article img, .projects-promos article.estates .rslides .carousel-cell img, .projects .properties div ul li figure img, #projdesc div figure img {
+.coverimg, .featured .featleft div img, .featured .featright div img, .featured-offers article img, .projects-promos article.estates .rslides .carousel-cell img, .projects .properties div ul li figure img, .projdesc div figure img {
   width: 100%;
   height: 100%;
   object-fit: cover; }
@@ -931,27 +931,27 @@ footer {
   max-width: 50%;
   margin: 20px 25%; }
 
-#projdesc {
+.projdesc {
   float: left; }
-  #projdesc h6 {
+  .projdesc h6 {
     font: 16px/22px "rajdhanisemibold";
     color: #919296; }
-  #projdesc p {
+  .projdesc p {
     color: #000;
     font: 16px/22px "robotoregular";
     margin-bottom: 5px; }
-  #projdesc h3 {
+  .projdesc h3 {
     font: 30px/36px "ralewaysemibold";
     color: #007149;
     margin-bottom: 15px; }
-  #projdesc ul {
+  .projdesc ul {
     list-style: none;
     margin: 0 0 20px;
     padding: 0; }
-    #projdesc ul li {
+    .projdesc ul li {
       border-bottom: solid 1px #dadada;
       margin-bottom: 5px; }
-      #projdesc ul li a {
+      .projdesc ul li a {
         color: #fff;
         background: #007149;
         padding: 10px;
@@ -959,45 +959,45 @@ footer {
         font: 16px/22px "rajdhanisemibold";
         text-transform: uppercase;
         box-sizing: border-box; }
-      #projdesc ul li a:hover {
+      .projdesc ul li a:hover {
         background: #00502f; }
-    #projdesc ul li:last-child {
+    .projdesc ul li:last-child {
       border-bottom: 0;
       padding: 20px 0; }
-  #projdesc div {
+  .projdesc div {
     width: 100%;
     float: left; }
-    #projdesc div figure {
+    .projdesc div figure {
       width: 100%;
       padding-right: 300px;
       text-align: center;
       box-sizing: border-box;
       position: absolute;
       height: 300px; }
-    #projdesc div article {
+    .projdesc div article {
       width: 280px;
       min-height: 300px;
       position: relative;
       z-index: 50; }
-    #projdesc div aside {
+    .projdesc div aside {
       padding: 15px 10px 10px;
       box-sizing: border-box; }
-      #projdesc div aside ul {
+      .projdesc div aside ul {
         margin: 0 !important;
         text-align: center; }
-        #projdesc div aside ul li {
+        .projdesc div aside ul li {
           display: inline-block;
           width: 30%;
           margin: 0; }
-          #projdesc div aside ul li a {
+          .projdesc div aside ul li a {
             background: #fff;
             border: solid 3px #000;
             color: #000; }
-          #projdesc div aside ul li a:hover {
+          .projdesc div aside ul li a:hover {
             background: #dadada; }
-        #projdesc div aside ul li:nth-child(2) {
+        .projdesc div aside ul li:nth-child(2) {
           margin: 0 20px 0; }
-        #projdesc div aside ul li:last-child {
+        .projdesc div aside ul li:last-child {
           margin: 0 !important;
           padding: 0; }
 
