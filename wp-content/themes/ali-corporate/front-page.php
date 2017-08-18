@@ -28,8 +28,8 @@
 			<h1>Residential Business Group</h1>
 			<p>Please Select Your Employer</p>
 			<ul>
-				<li><a href="index-age.html">Ayala Group Employee</a></li>
-				<li><a href="index-op.html">Outside Partners</a></li>
+				<li><a href="<?php echo get_permalink(69); ?>">Ayala Group Employee</a></li>
+				<li><a href="<?php echo get_permalink(78); ?>">Outside Partners</a></li>
 				<li><a href="bank-institutional-offers.html">Bank/Institutional Offers</a></li>
 			</ul>
 		</section>
