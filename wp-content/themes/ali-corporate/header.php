@@ -58,7 +58,6 @@ $GLOBALS['price_range']['30M - ABOVE'] = "30000000-ABOVE";
 # BUG: Dunno what sets these two indeces but we're gonna remove them
 unset($GLOBALS['price_range'][0]);
 unset($GLOBALS['price_range'][1]);
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -87,7 +86,7 @@ unset($GLOBALS['price_range'][1]);
 	<header class="inside">
 		<a href="<?php echo site_url() ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ayalaland-logo.jpg" width="240" height="80" alt="Ayala Land logo"></a>
 		<aside>
-			<h1>Bank/Institutional Offers</h1>
+			<h1>AYALA GROUP EMPLOYEE</h1>
 		</aside>
 	</header>
 	<section class="property-finder">
@@ -96,7 +95,7 @@ unset($GLOBALS['price_range'][1]);
 			<ul>
 				<li>
 					<select name="property_type">
-						<option value="">Property Type</option>
+						<option value="">Project Type</option>
 						<?php
 						$field_key = "field_59914624f4ae2";
 						$field = get_field_object($field_key);
@@ -128,7 +127,7 @@ unset($GLOBALS['price_range'][1]);
 					</select>
 				</li>
 				<li>
-					<input type="submit" >
+					<input type="submit" value="SEARCH">
 				</li>
 			</ul>
 		</form>
