@@ -59,6 +59,12 @@ $( ".featleft" ).click(function() {
 $( ".featright" ).click(function() {
 	$( ".reap" ).slideToggle( "slow" );
 });
+$( ".close1" ).click(function() {
+  $( ".employee" ).slideToggle( "slow" );
+});
+$( ".close2" ).click(function() {
+  $( ".reap" ).slideToggle( "slow" );
+});
 </script>
 <script>
 $(function () {
